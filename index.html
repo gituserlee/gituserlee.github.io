@@ -9,12 +9,11 @@
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 600px;height:400px;"></div>
-	<div id="mainPie" style="width: 600px;height:400px;"></div>
-	<div id="mainThem" style="width: 600px;height:400px;"></div>
+    <div id="main" style="width: 600px;height:400px;float:left;"></div>
+	<div id="mainPie" style="width: 600px;height:400px;float:left;"></div>
+	<div id="mainThem" style="width: 600px;height:400px;float:left;"></div>
     <script type="text/javascript">
-        
-		 var myChart = echarts.init(document.getElementById('main'),'chalk');
+        var myChart = echarts.init(document.getElementById('main'),'chalk');
  
         // 指定图表的配置项和数据
         var option = {
